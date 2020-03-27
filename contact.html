@@ -59,7 +59,10 @@
 	
 			//Comment out the code for Step 5. On the Contact.html page, write the code to change all of the states with the class "state"
 			//to the word "Hello". You must use a for loop in your solution.
-
+            var states = document.getElementsByClassName('state');
+            for (i =0; i < states.length; i++){
+                states[i].innerHTML = "Hello";
+            }
 			
 			
 			
